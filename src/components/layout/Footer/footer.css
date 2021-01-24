@@ -1,5 +1,21 @@
-.footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-   }
+.webintern-footer {
+    margin-top: 710px;
+    }
+    .tt-copy
+    {
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    background: #282828;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+    }
+    .tt-copy-right {
+    text-align: right;
+    }
+    
+    .samuravi,
+    .mams0n {
+        color: #009C7C;
+        font-weight: bold;
+    }

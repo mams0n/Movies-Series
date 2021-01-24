@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #282828;
+}
+
+.navbar-brand-name {
+    color: #009C7C;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#searchForm {
+    display: flex;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+.form-control {
+    background-color: #3c3c3c;
+    width: 400px;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #3c3c3c;
+    color: #fff;
+    /* border: 1px solid #009C7C; */
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6); */
+}

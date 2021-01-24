@@ -1,30 +1,28 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 
-function Footer() {
-    return (
-        <div className="footer">
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="footer p-3 mt-4 text-center bg-dark text-light">
-                        Developed By: 
-                         <span className="text-warning font-weight-normal">
-                            Mams0n
-                        </span>
-                            , Using <i className="fab fa-react" /> React JS &amp; Redux JS
-                             integrated with external movies data API
-                        <a
-                            href="http://www.omdbapi.com/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            OMDB
-                        </a>
-                    </div>
-                </div>
+const Footer = () => {
+  return (
+    <footer className="webintern-footer">
+      <div className="tt-copy">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="tt-copy-left">
+                Copyright © <span className="samuravi">MamsON TV.</span> All
+                rights reserved.{" "}
+              </div>
             </div>
+            <div className="col-sm-6">
+              <div className="tt-copy-right">
+                Created by: <span className="mams0n">Mams0n</span>
+              </div>
+            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

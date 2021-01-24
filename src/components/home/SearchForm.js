@@ -7,6 +7,9 @@ import {
   fetchMovies,
   setLoading
 } from '../../actions/searchActions';
+import './searchform.css'
+
+
 
 export class SearchForm extends Component {
   onChange = e => {
@@ -21,11 +24,12 @@ export class SearchForm extends Component {
 
   render() {
     return (
-      <div className="jumbotron jumbotron-fluid mt-5 text-center">
-        <div className="container">
-          <h1 className="display-4 mb-3">
+      <div className="searchform-container">
+      {/* // <div className="jumbotron jumbotron-fluid mt-5 text-center"> */}
+        {/* <div className="container"> */}
+          {/* <h1 className="display-4 mb-3">
             <i className="fa fa-search" /> Search for a movie ,TV series ..
-          </h1>
+          </h1> */}
           <form id="searchForm" onSubmit={this.onSubmit}>
             <input
               type="text"
@@ -34,11 +38,13 @@ export class SearchForm extends Component {
               placeholder="Search Movies, TV Series ..."
               onChange={this.onChange}
             />
-            <button type="submit" className="btn btn-primary btn-bg mt-3">
+            <i onClick={this.onSubmit} className="fas fa-search search-icon" type="submit" />
+            {/* <button type="submit" className="btn btn-primary btn-bg mt-3">
               Search
-            </button>
+            </button> */}
           </form>
-        </div>
+        {/* </div> */}
+      {/* // </div> */}
       </div>
     );
   }

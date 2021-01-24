@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import './movie.css'
 
 import { fetchMovie, setLoading } from '../../actions/searchActions';
 
@@ -20,7 +21,7 @@ export class Movie extends Component {
           <div className="col-md-4 card card-body">
             <img src={movie.Poster} className="thumbnail" alt="Poster" />
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 movie-details">
             <h2 className="mb-4">{movie.Title}</h2>
             <ul className="list-group">
               <li className="list-group-item">
@@ -52,7 +53,7 @@ export class Movie extends Component {
             <div className="col-md-12">
               <h3>About </h3>
               {movie.Plot}
-              <hr />
+              <hr className="hr" />
               <a
                 href={'https://www.imdb.com/title/' + movie.imdbID}
                 target="_blank"

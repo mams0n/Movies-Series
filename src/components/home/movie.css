@@ -1,0 +1,27 @@
+.card-body {
+    background-color: #282828 !important;
+}
+
+.btn-primary {
+    background-color: #009C7C;
+}
+
+.btn-primary:hover {
+    background-color: #016450;
+}
+
+.btn-primary:focus {
+    background-color: #016450;
+}
+
+.hr {
+    background-color: #3c3c3c;
+}
+
+.movie-details {
+    color: #fff;
+}
+
+.list-group-item {
+    background-color: #282828;
+}
