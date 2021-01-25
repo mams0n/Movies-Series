@@ -1,3 +1,22 @@
+.movie-modal {
+    /* background-color: #009C7C; */
+    /* width: 80%; */
+    /* background-color: red; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #3c3c3c;
+    z-index: 10;
+}
+
+.movie-modal-container {
+    width: 57%;
+    margin: 0 auto;
+    margin-top: 13vh;
+}
+
 .card-body {
     background-color: #282828 !important;
 }
@@ -8,6 +27,7 @@
 
 .btn-primary {
     background-color: #009C7C;
+    border: none;
 }
 
 .btn-primary:hover {
@@ -32,4 +52,23 @@
 
 .list-group-item {
     background-color: #282828;
+}
+
+.movie-title {
+    display: inline-block;
+}
+
+.title-close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-times {
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.fa-times:hover {
+    color: red;
 }

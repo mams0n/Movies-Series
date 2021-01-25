@@ -3,7 +3,7 @@ import MoviesContainer from './MoviesContainer'
 
 function Main() {
     return (
-        <div className="container" style={{width: '1px', height: '76.9vh'}}>
+        <div className="container" style={{width: '1px', height: '78.5vh'}}>
         </div>
     )
 }

@@ -8,6 +8,8 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 import store from './store'
 import Movie from './components/home/Movie';
 import Main from './components/home/Main'
+import SignIn from './components/auth/SignIn';
+import SignUp from './components/auth/SignUp';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Navbar />
           <Route exact path="/" component={Landing} />
           <Route exact path="/movie/:id" component={Movie} />
+          <Route exact path="/signin" component={SignIn} />
+          <Route exact path="/signup" component={SignUp} />
           <Footer />
         </div>
       </Router>

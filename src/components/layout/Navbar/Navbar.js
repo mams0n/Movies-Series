@@ -11,7 +11,7 @@ function Navbar() {
             <nav className="navbar mb-5">
                 <div className="container">
                     <div className="navbar-header">
-                        <a className="navbar-brand text-white text-lg brand-text" href='/'>
+                        <a className="navbar-brand text-white text-lg brand-text" href='/Movies-Series'>
                             <img width="50px" src={logo} alt="" />
                             <span className="navbar-brand-name">MamsON TV</span>
                         </a>
@@ -20,10 +20,10 @@ function Navbar() {
                     <SearchForm />
                     <ul className="navbar-nav text-light d-inline-block">
                         <li className="nav-item d-inline-block mr-4">
-                            <i className="fab fa-imdb fa-5x" id="imdb-logo" />
+                            <Link to="/signin">Sign In</Link>
                         </li>
                         <li className="nav-item d-inline-block mr-4">
-                            <i className="fab fa-react fa-5x" id="react-logo" />
+                            <Link to="/signup">Sign Up</Link>
                         </li>
                     </ul>
                 </div>
