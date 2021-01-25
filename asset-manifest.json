@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Movies-Series/static/css/main.691b40d8.chunk.css",
-    "main.js": "/Movies-Series/static/js/main.0d9fff4e.chunk.js",
-    "main.js.map": "/Movies-Series/static/js/main.0d9fff4e.chunk.js.map",
-    "runtime-main.js": "/Movies-Series/static/js/runtime-main.2b9645c2.js",
-    "runtime-main.js.map": "/Movies-Series/static/js/runtime-main.2b9645c2.js.map",
-    "static/js/2.708a48db.chunk.js": "/Movies-Series/static/js/2.708a48db.chunk.js",
-    "static/js/2.708a48db.chunk.js.map": "/Movies-Series/static/js/2.708a48db.chunk.js.map",
-    "static/js/3.15bdee1a.chunk.js": "/Movies-Series/static/js/3.15bdee1a.chunk.js",
-    "static/js/3.15bdee1a.chunk.js.map": "/Movies-Series/static/js/3.15bdee1a.chunk.js.map",
+    "main.css": "/Movies-Series/static/css/main.32b58f1c.chunk.css",
+    "main.js": "/Movies-Series/static/js/main.1e4d378a.chunk.js",
+    "main.js.map": "/Movies-Series/static/js/main.1e4d378a.chunk.js.map",
+    "runtime-main.js": "/Movies-Series/static/js/runtime-main.2d0b298e.js",
+    "runtime-main.js.map": "/Movies-Series/static/js/runtime-main.2d0b298e.js.map",
+    "static/js/2.934591e4.chunk.js": "/Movies-Series/static/js/2.934591e4.chunk.js",
+    "static/js/2.934591e4.chunk.js.map": "/Movies-Series/static/js/2.934591e4.chunk.js.map",
+    "static/js/3.f2b15d2f.chunk.js": "/Movies-Series/static/js/3.f2b15d2f.chunk.js",
+    "static/js/3.f2b15d2f.chunk.js.map": "/Movies-Series/static/js/3.f2b15d2f.chunk.js.map",
     "index.html": "/Movies-Series/index.html",
-    "static/css/main.691b40d8.chunk.css.map": "/Movies-Series/static/css/main.691b40d8.chunk.css.map",
-    "static/js/2.708a48db.chunk.js.LICENSE.txt": "/Movies-Series/static/js/2.708a48db.chunk.js.LICENSE.txt",
+    "static/css/main.32b58f1c.chunk.css.map": "/Movies-Series/static/css/main.32b58f1c.chunk.css.map",
+    "static/js/2.934591e4.chunk.js.LICENSE.txt": "/Movies-Series/static/js/2.934591e4.chunk.js.LICENSE.txt",
     "static/media/Spinner.3db3fdd8.gif": "/Movies-Series/static/media/Spinner.3db3fdd8.gif",
     "static/media/logo.e66d0c38.png": "/Movies-Series/static/media/logo.e66d0c38.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b9645c2.js",
-    "static/js/2.708a48db.chunk.js",
-    "static/css/main.691b40d8.chunk.css",
-    "static/js/main.0d9fff4e.chunk.js"
+    "static/js/runtime-main.2d0b298e.js",
+    "static/js/2.934591e4.chunk.js",
+    "static/css/main.32b58f1c.chunk.css",
+    "static/js/main.1e4d378a.chunk.js"
   ]
 }
