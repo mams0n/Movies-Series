@@ -1,0 +1,22 @@
+@font-face {
+    src: url(../../Fonts/eurostile-lt-std-geo-mt.ttf);
+    font-family: eurostile;
+  }
+
+.coming-movies-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.coming-movies-container h5 {
+    font-family: eurostile;
+    color: #009C7C;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.headline {
+    font-size: 30px;
+}

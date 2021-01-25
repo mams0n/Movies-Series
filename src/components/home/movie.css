@@ -14,15 +14,15 @@
 .movie-modal-container {
     width: 57%;
     margin: 0 auto;
-    margin-top: 13vh;
+    margin-top: 9vh;
 }
 
 .card-body {
     background-color: #282828 !important;
+    /* box-shadow: rgb(86, 130, 177) 0px 5px 30px -10px; */
 }
 
 .card-body:hover {
-    box-shadow: rgb(86, 130, 177) 0px 20px 30px -10px;
 }
 
 .btn-primary {

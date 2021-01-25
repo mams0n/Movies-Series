@@ -4,10 +4,10 @@ import "./spinner.css";
 
 function Spinner() {
   return (
-    <div className="sss">
+    <div className="spinner-container">
       <img
         src={spinner}
-        className="zzz"
+        className="loader"
         alt="Loading..."
       />
     </div>

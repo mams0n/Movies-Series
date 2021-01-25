@@ -1,4 +1,4 @@
-.sss {
+.spinner-container {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -11,7 +11,7 @@
     background-color: #282828;
 }
 
-.zzz {
+.loader {
     width: 200px;
     margin: 0 auto;
     display: block;

@@ -1,0 +1,28 @@
+.comming-soon-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    border: none;
+    box-shadow: rgb(79, 118, 160) 0px 20px 30px -10px;
+}
+
+.card-title {
+    display: inline-block;
+    color: #fff;
+}
+
+.release-date {
+    color: #009C7C;
+    font-weight: bold;
+    border-bottom: 1px solid #009C7C;
+    height: 25px;
+}
+
+.title-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text {
+    color: #fff;
+}

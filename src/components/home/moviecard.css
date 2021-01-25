@@ -3,7 +3,6 @@
 }
 
 .movie-card:hover {
-    box-shadow: rgb(86, 130, 177) 0px 20px 30px -10px;
 }
 
 .details-button:hover {
@@ -12,4 +11,9 @@
 
 .fa-chevron-right {
   margin-left: 10px;
+}
+
+.moviecard-container {
+  box-shadow: rgb(79, 118, 160) 0px 20px 25px -15px;
+  
 }
