@@ -25,11 +25,6 @@ export class SearchForm extends Component {
   render() {
     return (
       <div className="searchform-container">
-      {/* // <div className="jumbotron jumbotron-fluid mt-5 text-center"> */}
-        {/* <div className="container"> */}
-          {/* <h1 className="display-4 mb-3">
-            <i className="fa fa-search" /> Search for a movie ,TV series ..
-          </h1> */}
           <form id="searchForm" onSubmit={this.onSubmit}>
             <input
               type="text"
@@ -39,12 +34,7 @@ export class SearchForm extends Component {
               onChange={this.onChange}
             />
             <i onClick={this.onSubmit} className="fas fa-search search-icon" type="submit" />
-            {/* <button type="submit" className="btn btn-primary btn-bg mt-3">
-              Search
-            </button> */}
           </form>
-        {/* </div> */}
-      {/* // </div> */}
       </div>
     );
   }

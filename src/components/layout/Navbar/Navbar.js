@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.png'
 import './navbar.css'
 import SearchForm from '../../home/SearchForm'
+import Main from '../../home/Main';
 
 function Navbar() {
     return (
@@ -10,10 +11,10 @@ function Navbar() {
             <nav className="navbar mb-5">
                 <div className="container">
                     <div className="navbar-header">
-                        <Link className="navbar-brand text-white text-lg brand-text" to="/">
+                        <a className="navbar-brand text-white text-lg brand-text" href='/'>
                             <img width="50px" src={logo} alt="" />
                             <span className="navbar-brand-name">MamsON TV</span>
-                        </Link>
+                        </a>
                         
                     </div>
                     <SearchForm />

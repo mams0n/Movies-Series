@@ -2,6 +2,10 @@
     background-color: #282828 !important;
 }
 
+.card-body:hover {
+    box-shadow: rgb(86, 130, 177) 0px 20px 30px -10px;
+}
+
 .btn-primary {
     background-color: #009C7C;
 }
@@ -20,6 +24,10 @@
 
 .movie-details {
     color: #fff;
+}
+
+.list-group:hover {
+    box-shadow: rgb(86, 130, 177) 0px 20px 30px -10px;
 }
 
 .list-group-item {

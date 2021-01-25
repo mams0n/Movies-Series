@@ -6,9 +6,9 @@ export class MovieCard extends Component {
   render() {
     const { movie } = this.props;
     return (
-      <div className="col-md-3 mb-5" style={{height: '480px'}}>
-        <div className="card card-body bg-dark text-center h-100">
-          <img height='315px' className="w-100 mb-2" src={movie.Poster} alt="Movie Cover" />
+      <div className="col-md-3 mb-5 moviecard-container">
+        <div className="card card-body movie-card bg-dark text-center h-100">
+          <img height='315px' className="w-100 mb-2 movie-poster" src={movie.Poster} alt="Movie Cover" />
           <h5 className="text-light card-title">
             {movie.Title} - {movie.Year}
           </h5>

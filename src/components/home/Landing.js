@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import MoviesContainer from './MoviesContainer';
 import Spinner from '../layout/Spinner/Spinner';
+import SearchForm from './SearchForm'
 
 export class Landing extends Component {
     render() {

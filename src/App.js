@@ -7,6 +7,7 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 
 import store from './store'
 import Movie from './components/home/Movie';
+import Main from './components/home/Main'
 
 function App() {
   return (
