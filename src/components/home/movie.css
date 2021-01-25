@@ -1,7 +1,4 @@
 .movie-modal {
-    /* background-color: #009C7C; */
-    /* width: 80%; */
-    /* background-color: red; */
     position: fixed;
     left: 0;
     right: 0;
@@ -19,10 +16,7 @@
 
 .card-body {
     background-color: #282828 !important;
-    /* box-shadow: rgb(86, 130, 177) 0px 5px 30px -10px; */
-}
-
-.card-body:hover {
+    box-shadow: rgb(86, 130, 177) 0px 5px 30px -10px;
 }
 
 .btn-primary {
@@ -46,8 +40,8 @@
     color: #fff;
 }
 
-.list-group:hover {
-    box-shadow: rgb(86, 130, 177) 0px 20px 30px -10px;
+.list-group {
+    box-shadow: rgb(86, 130, 177) 0px 5px 30px -10px;
 }
 
 .list-group-item {
@@ -66,7 +60,8 @@
 .fa-times {
     font-size: 25px;
     cursor: pointer;
-    color: white;
+    color: #fff;
+    margin-top: 10px;
 }
 
 .fa-times:hover {

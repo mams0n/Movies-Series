@@ -19,7 +19,7 @@ export class Movie extends Component {
       <div className="movie-modal">
         <div className="movie-modal-container">
           <div className="row">
-            <div className="col-md-4 card card-body">
+            <div className="col-md-4 card card-body movie-card-poster">
               <img src={movie.Poster} className="thumbnail" alt="Poster" />
             </div>
             <div className="col-md-8 movie-details">
